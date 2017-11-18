@@ -19,7 +19,7 @@
   width: 400px;
   height: 400px;
   background-color: lightgrey;
-  overflow: hidden;
+  overflow: visible;
   font-size: 0;
 }
 

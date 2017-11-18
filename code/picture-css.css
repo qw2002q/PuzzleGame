@@ -1,7 +1,7 @@
 #line1, #line2, #line3, #line4{
   width: 400px;
   height: 100px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .picture{
@@ -11,6 +11,14 @@
   display: inline-block;
   background-size: 396px 396px;
   background-image: url(./src/panda.jpg);
+  opacity: 0.9;
+}
+.picture:hover{
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  border: 0px;
+  transition-duration: 0.1s;
 }
 
 #p1{
@@ -76,4 +84,11 @@
 
 #p16{
   background-image: none !important;
+  opacity: 1 !important;
+  width: 99px;
+  height: 99px;
+  border: 0.5px solid grey;
+  display: inline-block;
+  background-size: 396px 396px;
+  background-image: url(./src/panda.jpg);
 }

@@ -1,0 +1,79 @@
+#line1, #line2, #line3, #line4{
+  width: 400px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.picture{
+  width: 99px;
+  height: 99px;
+  border: 0.5px solid grey;
+  display: inline-block;
+  background-size: 396px 396px;
+  background-image: url(./src/panda.jpg);
+}
+
+#p1{
+  background-position: 0 0;
+}
+
+#p2{
+  background-position: -100% 0;
+  /*background-position对应的是背景的位置（即移动的是背景）*/
+}
+
+#p3{
+  background-position: -200% 0;
+}
+
+#p4{
+  background-position: -300% 0;
+}
+
+#p5{
+  background-position: 0px -100%;
+}
+
+#p6{
+  background-position: -100% -100%;
+}
+
+#p7{
+  background-position: -200% -100%;
+}
+
+#p8{
+  background-position: -300% -100%;
+}
+
+#p9{
+  background-position: 0px -200%;
+}
+
+#p10{
+  background-position: -100% -200%;
+}
+
+#p11{
+  background-position: -200% -200%;
+}
+
+#p12{
+  background-position: -300% -200%;
+}
+
+#p13{
+  background-position: 0px -300%;
+}
+
+#p14{
+  background-position: -100% -300%;
+}
+
+#p15{
+  background-position: -200% -300%;
+}
+
+#p16{
+  background-image: none !important;
+}

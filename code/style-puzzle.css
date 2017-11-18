@@ -1,0 +1,54 @@
+#mainmenu{
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  box-shadow: 8px 8px 20px 5px grey;
+}
+
+#top-words{
+  height: 80px;
+  text-align: center;
+}
+
+#GameMargin{
+  background-color: lightgreen;
+  height: 400px;
+}
+#GameBorder{
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: lightgrey;
+  overflow: hidden;
+  font-size: 0;
+}
+
+#bottom{
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+#Restart{
+  outline: 0; /*去掉button按击时产生的边框*/
+  margin: auto;
+  background-color: rgb(53, 140, 235);
+  width: 140px;
+  height: 45px;
+  text-align: center;
+  box-shadow: 3px 3px 10px 1.5px grey;
+  transform: translateY(37.5px);
+  transition-duration: 0.2s;
+}
+#Restart:hover{
+  transform: translateY(36.5px);
+  width: 146px;
+  height: 47px;
+  transition-duration: 0.2s;
+}
+#Restart > p{
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.9px;
+}

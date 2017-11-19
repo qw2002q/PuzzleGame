@@ -15,9 +15,7 @@
 }
 .picture:hover{
   opacity: 1;
-  width: 100px;
-  height: 100px;
-  border: 0px;
+  transform: scale(1.05);
   transition-duration: 0.1s;
 }
 
